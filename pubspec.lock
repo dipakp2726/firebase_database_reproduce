@@ -95,10 +95,12 @@ packages:
   firebase_database:
     dependency: "direct dev"
     description:
-      name: firebase_database
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "10.0.4"
+      path: "packages/firebase_database/firebase_database"
+      ref: "0583e101fb140e7d029133b86254f072bf9c69b4"
+      resolved-ref: "0583e101fb140e7d029133b86254f072bf9c69b4"
+      url: "https://github.com/dipakp2726/flutterfire"
+    source: git
+    version: "10.0.3"
   firebase_database_platform_interface:
     dependency: transitive
     description:

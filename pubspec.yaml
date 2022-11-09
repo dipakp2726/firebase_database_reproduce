@@ -46,7 +46,11 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
-  firebase_database: ^10.0.4
+  firebase_database:
+    git:
+      url: https://github.com/dipakp2726/flutterfire
+      ref: 0583e101fb140e7d029133b86254f072bf9c69b4
+      path: packages/firebase_database/firebase_database
   firebase_core: ^2.1.1
 
 # For information on the generic Dart part of this file, see the
